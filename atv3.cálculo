@@ -15,9 +15,7 @@ public class Main {
 		double x = horasTrabalhadas * valorPorHora;
 		
 		System.out.println("Você digitou: " + numeroDoFuncionario);
-		System.out.println("Você digitou: " + horasTrabalhadas);
-		System.out.println("Você digitou: " + valorPorHora);
-		System.out.println("O seu salário é igual a: " + x);
+		System.out.printf("O seu salário é igual a = U$ %.2f", x);
 		
 		sc.close();
 			
