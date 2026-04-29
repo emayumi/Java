@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int numeroDoFuncionario;
+		int horasTrabalhadas;
+		double valorPorHora;
+		
+		numeroDoFuncionario = sc.nextInt();
+		horasTrabalhadas = sc.nextInt();
+		valorPorHora = sc.nextDouble();
+		double x = horasTrabalhadas * valorPorHora;
+		
+		System.out.println("Você digitou: " + numeroDoFuncionario);
+		System.out.println("Você digitou: " + horasTrabalhadas);
+		System.out.println("Você digitou: " + valorPorHora);
+		System.out.println("O seu salário é igual a: " + x);
+		
+		sc.close();
+			
+	}
+
+}
